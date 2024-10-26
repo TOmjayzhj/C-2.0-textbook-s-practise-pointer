@@ -1,8 +1,8 @@
 #include<stdio.h>
 #define cube(x) (x*x*x)
-#define RADTODEG1(x) ((x)*57.29578 ) //Ò»¶¨ÒªÓĞÀ¨ºÅ 
-#define PRETTY_PRINT(msg) printf(msg)
-#define MIN(a,b) ((a)>(b)?(b):(a))
+#define RADTODEG1(x) ((x)*57.29578 ) //ä¸€å®šè¦æœ‰æ‹¬å· 
+#define PRETTY_PRINT(msg) printf(msg) //
+#define MIN(a,b) ((a)>(b)?(b):(a))    //è¿™é‡Œè¿˜çœ‹ä¸æ‡‚
 //#define RADTODEG2(x) (x)*57.29578
 int main(void)
 {
@@ -11,7 +11,7 @@ int main(void)
 	//printf("%s\n",_STDC_);
 	printf("%d\n",cube(5));
 	printf("%f\n",RADTODEG1(2+5));
-	PRETTY_PRINT("»¹Òª×¢Òâ²»Òª´ø·ÖºÅ\n");
+	PRETTY_PRINT("è¿˜è¦æ³¨æ„ä¸è¦å¸¦åˆ†å·\n");
 //	printf("%f\n",RACTODEG2(1));
 	return 0;
 }
