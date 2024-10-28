@@ -22,7 +22,7 @@ int main(void)
 	}
 	return 0;
 }
-int p(int a,int b)
+int p(int a,int b)====================================解决刷题的超出限制时间的问题
 {
 	int i;
 	int k=1;
