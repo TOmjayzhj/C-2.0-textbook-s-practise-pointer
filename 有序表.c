@@ -1,3 +1,4 @@
+老子打过的最长的代码
 #include<stdio.h>
 #define MAXN 100
 int Count=0;
